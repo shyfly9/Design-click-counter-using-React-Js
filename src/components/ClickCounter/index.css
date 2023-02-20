@@ -1,0 +1,43 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f5f8;
+  background-size: cover;
+  height: 100vh;
+  font-family: roboto;
+}
+.head {
+  font-size: 50px;
+  color: #2d3a35;
+  font-weight: bold;
+  text-align: center;
+}
+.text {
+  font-size: 20px;
+  color: 2d3a35;
+  font-weight: 400;
+}
+@media screen and (max-width: 767px) {
+  .head {
+    font-size: 30px;
+  }
+  .text {
+    font-size: 16px;
+  }
+}
+.btn {
+  color: #ffffff;
+  background-color: #007bff;
+  width: 90px;
+  height: 35px;
+  cursor: pointer;
+  font-size: 15px;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+}
+.counter-value {
+  color: #c20a72;
+}
